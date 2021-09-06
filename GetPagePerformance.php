@@ -8,7 +8,7 @@ use GuzzleHttp\Client;
 $client = new \GuzzleHttp\Client();
 
 // Call the API and store response
-$response = $client->request('GET', 'globalpageload?license=YOURAPIKEY&origin=Singapore&url=http://www.yahoo.com');
+$response = $client->request('GET', 'https://api.interzoid.com/globalpageload?license=YOURAPIKEY&origin=Singapore&url=http://www.yahoo.com');
 
 // show response status code
 echo $response->getStatusCode();
