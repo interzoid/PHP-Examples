@@ -1,4 +1,5 @@
 <?php
+// Get your API key at www.interzoid.com/register
 
 require 'vendor/autoload.php';
 
